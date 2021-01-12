@@ -1,0 +1,88 @@
+:root{--maincolor:#dd272d;--secondColor:#1c5d71}
+.upper-nav button{border:2px solid var(--maincolor);font-size:12px;border-radius:0;height:25px;line-height:2px}
+.navbar-brand{font-size:40px}
+.navbar-light .navbar-toggler{border-color:var(--secondColor)}
+.dropdown-menu{border:none;padding:0;transition:all 1s;margin:0;border-radius:0;width:260px}
+.dropdown-menu .dropdown-item{padding:10px;font-weight:700;font-size:14px;margin:0}
+.dropdown-menu .dropdown-item:hover{color:#fff}
+.navbar-nav{float:right}
+.navbar-nav .nav-link{font-size:14px;padding:13px}
+.carousel-header .carousel-item{background-size:cover}
+.carousel-header .carousel-one{background-image:url(/images/bak.jpg)}
+.carousel-header .carousel-tow{background-image:url(/images/bakb.jpg)}
+.carousel-header .carousel-three{background-image:url(/images/bakb.jpg)}
+.carousel-header .carousel-inner h1{text-align:left;width:60%;padding-left:50px;font-size:65px;line-height:1.5;position:absolute;z-index:4}
+.carousel-control-next,.carousel-control-prev{width:5%;z-index:444;bottom:-173px}
+.carousel-control-next i,.carousel-control-prev i{background-color:var(--maincolor);width:30px;height:30px;line-height:30px}
+.carousel-indicators li{width:15px;height:15px;border-radius:50%;border:2 solid #fff}
+.carousel-indicators li.active{background-color:#fff}
+.features i{width:60px;height:60px;line-height:60px;border-radius:50%}
+.compagny{background-color:#e7e8e8}
+.our-work .images{padding:0}
+.our-work .row{margin:0}
+.our-work button{border-radius:0;border:1px solid #e7e7e7;background-color:transparent;font-size:18px;color:var(--secondColor);transition:all 1s;margin-bottom:10px}
+.our-work button:hover{color:var(--maincolor);border:2px solid var(--maincolor)}
+.our-work button.active{background-color:var(--maincolor);color:#fff}
+.our-work .overlay{background-color:rgba(1,1,1,.842);justify-content:center;align-items:center;display:none}
+.images:hover .overlay{display:flex}
+.our-work .content-overly{border:1px solid #fff;padding:40px}
+.postes button{color:var(--maincolor);font-weight:700;padding:10px 0}
+.postes .line{line-height:1.5}
+.testimonial{background-image:url(/images/baka.jpg);position:relative;height:600px}
+.testimonial .container{z-index:44}
+.testimonial .carousel-caption{position:static}
+.testimonial .carousel-caption p{width:80%;margin:30px auto;line-height:2;font-style:italic;letter-spacing:1px;font-weight:700}
+.table-price{background-color:#eee}
+.content-price{background-color:#fff;margin-bottom:10px}
+.content-price .pricing{background-color:#eee;font-size:55px;font-weight:700}
+.content-price .pricing span{font-size:16px}
+.content-price li{padding-bottom:15px}
+.about .col-md-6{padding:0}
+.statistics i,.statistics p{font-size:30px;font-weight:700}
+.statistics span{font-size:19px;padding:0}
+.contact-us{font-size:20px}
+footer{background-color:#eee}
+footer .btn{color:var(--maincolor);font-size:bold}
+footer .fa-angle-righ{color:rgba(179,174,174,.932);padding-right:5px}
+footer li{padding-bottom:10px;color:#04617d;transition:1s;font-size:16px;cursor:pointer}
+footer button::before,footer li::before{content:"\f0a9";display:inline-block;font-family:FontAwesome;margin-right:5px}
+footer .contact-info p,footer h3{color:#04617d}
+footer li:hover{padding-left:15px}
+footer .container-icon i{padding-left:10px}
+.compagny p,.our-work p,.postes p,.tabel-price p{width:80%;margin:auto;font-size:18px;line-height:2}
+.about button,.compagny button,.contact-us button,.content-price button{border-radius:0;border:none;background-color:var(--maincolor);width:160px;font-size:18px;font-weight:700;color:#fff}
+.contact-us button{border:2px solid #fff}
+.upper-nav button.hvr-sweep-to-right:before{background-color:var(--maincolor)}
+.about .text,.upper-nav{background-color:var(--secondColor)}
+.content-price .pricing,.content-price h5,.dropdown-menu .dropdown-item,.features h4,.navbar-brand span,.navbar-nav .nav-link,.postes button:hover,.postes h5,.statistics i,.statistics p,footer h2{color:var(--secondColor)}
+.content-overly h4,.navbar-brand,.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link:hover,.navbar-light .navbar-toggler,.navbar-toggler-icon,.statistics span,footer .container-icon i:hover,footer h2 span,footer li:hover{color:var(--maincolor)!important}
+.carousel-header .carousel-inner span,.contact-us,.dropdown-menu .dropdown-item:hover,.features i,.pricing.change-color,carousel-indicators li{background-color:#dd272d!important}
+.hvr-sweep-to-right{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;position:relative;-webkit-transition-property:color;transition-property:color;-webkit-transition-duration:.3s;transition-duration:.3s}
+.hvr-sweep-to-right:before{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;bottom:0;background:var(--secondColor);-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:0 50%;transform-origin:0 50%;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
+.hvr-sweep-to-right:active,.hvr-sweep-to-right:focus,.hvr-sweep-to-right:hover{color:#fff}
+.hvr-sweep-to-right:active:before,.hvr-sweep-to-right:focus:before,.hvr-sweep-to-right:hover:before{-webkit-transform:scaleX(1);transform:scaleX(1)}
+.overlay{position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%;background:rgba(1,1,1,.4);z-index:2}
+.p-section{padding-top:90px;padding-bottom:90px}
+.text-light-white{color:#f3f3f3;font-size:17px;line-height:1.6}
+.img-config{width:100%}
+@media (max-width:574px){
+.carousel-header .carousel-inner h1{width:83%;font-size:33px}
+.our-work .overlay{width:400px;margin:auto}
+.our-work .images{margin-bottom:20px}
+}
+@media (min-width:575px) and (max-width:767px){
+.carousel-header .carousel-inner h1{width:90%;font-size:35px;padding-left:30px}
+.our-work .overlay{width:400px;margin:auto}
+}
+@media (min-width:768px) and (max-width:991px){
+.carousel-header .carousel-inner h1{width:70%;font-size:40px;padding-left:40px}
+}
+@media(min-width:992px) and (max-width:1199px){
+.carousel-header .carousel-inner h1{width:62%;font-size:50px}
+}
+@media (max-width:992px){
+.navbar-nav{position:absolute;top:0;z-index:33;right:0;background:#111;width:260px}
+.navbar-nav .nav-link{color:#fff!important;font-size:14px;padding:13px;border-bottom:1px solid rgb(204 201 201 / 34%)}
+.dropdown-menu .dropdown-item{padding-top:13px;padding-bottom:13px;padding-left:25px;color:#fff;font-size:14px;font-weight:400;margin:0;background-color:rgba(17,17,17,.9);border-bottom:1px solid rgb(204 201 201 / 34%)}
+.dropdown-menu .dropdown-item:hover{background-color:#dd272d;color:#fff}
+}
